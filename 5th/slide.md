@@ -72,7 +72,7 @@ ___
 ___
 ## Mojoliciousの資料
 - 本家
-    - [mojolicious.us](http://mojolicio.us/)
+    - [mojolicio.us](http://mojolicio.us/)
 - 日本語訳
     - [Mojoliciousドキュメント 日本語訳](https://github.com/yuki-kimoto/mojolicious-guides-japanese/wiki)
 
@@ -105,18 +105,18 @@ ___
 ___
 ## ひな形を作る
 ```
-$ mojo generate lite_app hello.pl
+$ mojo generate lite_app hellomojo.pl
 ```
 
 - Mojoliciousをインストールすると、``mojo``というコマンドが使えるようになります。
 - ``mojo generate lite_app``と入力すると、``Mojolicious::Lite``を使ったひな形を作成してくれます。
-- ``hello.pl``は作成するファイル名です。
-- 現在のディレクトリに``hello.pl``というファイルが作成されているか確認して下さい。
+- ``hellomojo.pl``は作成するファイル名です。
+- 現在のディレクトリに``hellomojo.pl``というファイルが作成されているか確認して下さい。
 
 ___
 ## 起動してみる
 ```
-$ morbo hello.pl
+$ morbo hellomojo.pl
 ```
 
 - Mojoliciousをインストールすると、``morbo``というコマンドも使えるようになります。
