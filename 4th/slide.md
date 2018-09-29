@@ -54,7 +54,7 @@ ___
 
     sub say {
         my $str = shift @_;
-        print "$str\n";     
+        print "$str\n";
     }
     say("hello, world!"); # => hello, world![改行]
 
@@ -254,8 +254,8 @@ ___
     my @foo  = qw/ foo bar baz /;
     sub output {
         my (@array1, @array2) = @_;
-        print '@array1 = ' . join(',', @array1) . "\n";  
-        print '@array2 = ' . join(',', @array2) . "\n";  
+        print '@array1 = ' . join(',', @array1) . "\n";
+        print '@array2 = ' . join(',', @array2) . "\n";
     }
     output(@hoge, @foo);
 
@@ -302,8 +302,8 @@ ___
     my @foo  = qw/ foo bar baz /;
     sub output {
         my ($array1, $array2) = @_;
-        print '@$array1 = ' . join(',', @$array1) . "\n";  
-        print '@$array2 = ' . join(',', @$array2) . "\n";  
+        print '@$array1 = ' . join(',', @$array1) . "\n";
+        print '@$array2 = ' . join(',', @$array2) . "\n";
     }
     output(\@hoge, \@foo);
 
@@ -746,6 +746,12 @@ ___
 
 ---
 # 質問タイム
+
+---
+# 復習問題
+- <https://github.com/perl-entrance-org/workshop-2018/blob/master/4th/practice.md>
+  - 今回の内容を復習できる問題集です。
+  - 不明点があれば、気軽にサポーターに質問してください。
 
 ---
 # お疲れさまでした
