@@ -29,7 +29,7 @@ ___
 - スタートメニューから「MSYS2 XXbit」を選択し、「MSYS2 MSYS」をクリックします.
     - MSYS2は頻繁に起動するため, タスクバーへの追加やスタートメニューへのピン止めをおすすめします.
 
-![ターミナル](/appimages/msys2/start-msys2-1.png)
+![ターミナル](/image/start-msys2-1.png)
 <br>
 △スタートメニューから開いたところ（Windows10）
 

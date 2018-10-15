@@ -163,31 +163,31 @@ ___
 ### ダウンロードしたmsys2をインストールします
 ダウンロードした`exe`ファイルをダブルクリックして開くと, インストールが始まります.
 「MSYS2 xxbitのセットアップ」と表示されるので, 「次へ」を押します.
-<img src="/appimages/msys2/0.png" align='right' style='width: 30%'>
+<img src="image/0.png" align='right' style='width: 30%'>
 
 ___
 ## msys2のインストール（２）
 ### インストール先フォルダを指定する
 - デフォルトでは「C:\msys64」や「C:\msys32」と表示されます. 変更する必要がなければそのまま「次へ」を押します. 同じフォルダ名が存在する場合はエラーになります。
-<img src="/appimages/msys2/1.png" align='right' style='width: 30%'>
+<img src="image/1.png" align='right' style='width: 30%'>
 
 ___
 ## msys2のインストール（３）
 ### スタートメニューのショートカット名を指定
 - デフォルトでは「MSYS2 64bit」や「MSYS2 32bit」と表示されます. 任意の名前を指定できますが, 変更する必要がなければそのまま「次へ」を押します.
-<img src="/appimages/msys2/2.png" align='right' style='width: 30%'>
+<img src="image/2.png" align='right' style='width: 30%'>
 
 ___
 ## msys2のインストール（４）
 ### インストールを開始します
 - ここまで完了すると「MSYS2 64bitのインストール」または「MSYS2 32bitのインストール」と表示され、実際にインストールがはじまります.
-<img src="/appimages/msys2/3.png" align='right' style='width: 30%'>
+<img src="image/3.png" align='right' style='width: 30%'>
 
 ___
 ## msys2のインストール（５）
 ### インストールの完了
 - インストールが完了すると「MSYS2 64bitのウィザードの完了」または「MSYS2 32bitのウィザードの完了」と表示されます.
-<img src="/appimages/msys2/4.png" align='right' style='width: 30%'>
+<img src="image/4.png" align='right' style='width: 30%'>
 - 以下のどちらかのチェックボックスがオンのまま「完了」をクリックします. 
   - 「MSYS2 64bitを実行中。」
   - 「MSYS2 32bitを実行中。」
@@ -196,7 +196,7 @@ ___
 ## msys2のインストール（６）
 ### msys2の起動
 - インストラーで「完了」をクリックするとmsys2が起動します.
-<img src="/appimages/msys2/5.png" align='right' style='width: 30%'>
+<img src="image/5.png" align='right' style='width: 30%'>
 - 次回以降は次の方法で起動します.
   - スタートメニューから「MSYS2 MSYS」を選択して起動
   - インストールしたディレクトリ内の「msys2.exe」を起動
@@ -205,7 +205,7 @@ ___
 ## msys2のインストール（７）
 ### msys2を起動したときに
 - 次のようなウィンドウが表示される場合があります.
-<img src="/appimages/msys2/mintty1.png" align='right' style='width: 30%'>
+<img src="image/mintty1.png" align='right' style='width: 30%'>
 - この場合は、「MSYS2」を選択します.
 
 ※Perlを利用する場合は「MSYS2」が適しているため
@@ -225,7 +225,7 @@ ___
 次のコマンドを実行して設定スクリプトをダウンロードします.
 
 ```
-$ wget https://appslideshare.tugougaii.site/appimages/msys2/replace-repo.bash
+$ wget https://appslideshare.tugougaii.siteimage/replace-repo.bash
 ```
 
 ### md5チェックサム
@@ -312,7 +312,7 @@ ___
 $ bash replace-repo.bash <IP Address:Port>
 ```
 
-<img src="/appimages/msys2/replace-repo1.png" align='right' style='width: 30%'>
+<img src="image/replace-repo1.png" align='right' style='width: 30%'>
 
 `<IP Address:Port>` の部分は、別途お伝えします。
 
@@ -341,7 +341,7 @@ ___
 $ pacman -Sy
 ```
 
-<img src="/appimages/msys2/7.png" align='right' style='width: 30%'>
+<img src="image/7.png" align='right' style='width: 30%'>
 
 ___
 ## msys2のセットアップ（６）
@@ -363,7 +363,7 @@ ___
 $ yes "" | pacman -S perl perl-CPAN msys2-devel make libcrypt-devel
 ```
 
-<img src="/appimages/msys2/8.png" align='right' style='width: 30%'>
+<img src="image/8.png" align='right' style='width: 30%'>
 
 ___
 ## msys2のセットアップ（８）
@@ -385,7 +385,7 @@ ___
 $ bash replace-repo.bash <IP Address:Port>
 ```
 
-<img src="/appimages/msys2/replace-repo2.png" align='right' style='width: 30%'>
+<img src="image/replace-repo2.png" align='right' style='width: 30%'>
 
 変更時と同じコマンドを実行します。
 
@@ -408,7 +408,7 @@ ___
 $ perl -v
 ```
 
-<img src="/appimages/msys2/9.png" align='right' style='width: 30%'>
+<img src="image/9.png" align='right' style='width: 30%'>
 
 
 ___
@@ -426,7 +426,7 @@ $ cpan JSON::XS
 $ perl -MJSON::XS -e 1
 ```
 
-<img src="/appimages/msys2/10.png" align='right' style='width: 30%'>
+<img src="image/10.png" align='right' style='width: 30%'>
 
 既に別のPerlをインストールしている場合、環境変数PERL5LIBの影響を受ける場合があります。その場合は「PERL5LIB=」などを実行し、PERL5LIBを空にしてから実行してください。
 
@@ -455,7 +455,7 @@ ___
 
 msys2ではwindowsのコマンドも実行できます. ただし, ターミナルの文字コードの問題で文字化けが発生します.
 
-<img src="/appimages/msys2/ping1.png" align='right' style='width: 70%'>
+<img src="image/ping1.png" align='right' style='width: 70%'>
 
 ___
 ## msys2の基本 (３)
