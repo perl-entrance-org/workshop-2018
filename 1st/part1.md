@@ -459,6 +459,9 @@ ___
 # パッケージの検索（perl-YAMLを検索する）
 $ pacman -Ss perl-YAML
 
+# パッケージ情報を確認（perl-YAMLを確認する）
+$ pacman -Si perl-YAML
+
 # パッケージのインストール（perl-YAMLをインストールする）
 $ pacman -S perl-YAML
 ```
