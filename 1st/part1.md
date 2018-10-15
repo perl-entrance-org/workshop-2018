@@ -39,12 +39,12 @@ ___
 - Perlだけでなく, PHPやRubyでもこの傾向があるように思います.
 
 ___
-## Linuxか? Macか?
+## Linuxか? macOSか?
 - Linuxの利点は, 基本的に無料で使えるという点です.
     - 先進的な要素が多いUbuntu, 安定稼働を重視して利用されるCentOSなど, 多くの種類(ディストリビューション)が存在します.
 
 ___
-## Linuxか? Macか?
+## Linuxか? macOSか?
 - 基本的にWindows製のソフトウェアはLinux上では動かないと思いましょう.
     - 特にOfficeが使えないのは(場合によっては)致命的となり得ます.
     - WindowsとLinuxを用途に応じて使い分ける必要があるでしょう.
@@ -52,16 +52,16 @@ ___
 ※とはいえOfficeに関してはブラウザ版を利用するという手もあります
 
 ___
-## Linuxか? Macか?
-- 一方, MacはMacBook AirやMacBook ProなどApple製のPCに搭載されています.
-    - Linuxと同様, 基本的にWindow向けのソフトウェアはMac上では動きません.
-    - ただし, Officeについては, MicrosoftがMac版を販売しているので利用することができます.
-- その他, ソフトウェアによってはWindowsだけでなくLinuxやMacにも対応したものを配布している場合があります.
+## Linuxか? macOSか?
+- 一方, macOSはMacBook AirやMacBook ProなどApple製のPCに搭載されています.
+    - Linuxと同様, 基本的にWindow向けのソフトウェアはmacOS上では動きません.
+    - ただし, Officeについては, MicrosoftがmacOS版を販売しているので利用することができます.
+- その他, ソフトウェアによってはWindowsだけでなくLinuxやmacOSにも対応したものを配布している場合があります.
 
 ___
 ## Perl入学式では...
 
-###  Linuxユーザ, Macユーザの方は...
+###  Linuxユーザ, macOSユーザの方は...
 
 特に問題が無い限り, 既にお手持ちのPC/環境を利用して頂きます.
 
