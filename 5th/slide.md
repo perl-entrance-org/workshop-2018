@@ -337,14 +337,6 @@ ___
     $ mojo generate lite_app BBS
 
 ___
-## PODRenderer
-    # Documentation browser under "/perldoc" # 削除
-    plugin 'PODRenderer'; # 削除
-
-- PODRenderer は Mojolicious のプラグインで, perldoc を見れるようにするもの
-- 削除する前に、[localhost:3000/perldoc](http://localhost:3000/perldoc) にアクセスしてみよう!
-
-___
 ## FORM 作成
     Welcome to the Mojolicious real-time web framework! # 削除
 
