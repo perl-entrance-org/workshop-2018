@@ -163,7 +163,7 @@ get '/' => sub {
 - ``Mojolicious::Lite``では、HTTPのGETリクエスト用の``router``として``get``という関数が用意されています。
 
 ___
-## コード解説（Line 4 - 7）
+## コード解説（Line 4）
 ```
 get '/' => sub { ... };
 ```
@@ -173,7 +173,7 @@ get '/' => sub { ... };
 - このように書くことで、HTTPのGETメソッドで``/``にアクセスした時の処理を``sub { ... }``に書くことができます。
 
 ___
-## コード解説（Line 4 - 7）
+## コード解説（Line 5 - 6）
 ```
 my $c = shift;
 $c->render(template => 'index');
